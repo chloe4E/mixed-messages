@@ -19,7 +19,7 @@ const complementArray = ['to shine.', 'to breathe from within.', 'to embrace the
 ];
 
 /* mixed message function
-I want to create a switch function which will take for input a random number 
+I want to create a function which will take for input a random number 
 and will output a element of an array. 
 As I have 3 pieces to make a message:
 the idea would be to call this function 3 times and concatenate the results.*/
@@ -39,3 +39,7 @@ complement = mixedMessagePart(complementArray);
 
 const finalSentence = context + action + complement;
 console.log(finalSentence);
+
+function getInspired(){
+  return finalSentence;
+}
